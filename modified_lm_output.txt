@@ -1,0 +1,19 @@
+
+Call:
+lm(formula = earnings$height ~ earnings$earn)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-12.0448  -2.6572  -0.2853   2.5615  14.3309 
+
+Coefficients:
+               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   6.559e+01  1.187e-01   552.4   <2e-16 ***
+earnings$earn 4.613e-05  3.843e-06    12.0   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3.689 on 1814 degrees of freedom
+Multiple R-squared:  0.07357,	Adjusted R-squared:  0.07306 
+F-statistic: 144.1 on 1 and 1814 DF,  p-value: < 2.2e-16
+
